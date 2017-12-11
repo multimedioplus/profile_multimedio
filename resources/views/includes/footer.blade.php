@@ -6,7 +6,7 @@
 <script src="{{ url('assets/plugins/mdbootstrap/js/bootstrap.min.js') }}"></script>
 <!-- MDB core JavaScript -->
 <script src="{{ url('assets/plugins/mdbootstrap/js/mdb.min.js') }}"></script>
-<script src="{{ url('assets/plugins/mdbootstrap/js/mdb-landing.min.js') }}"></script>
+<script src="{{ url('assets/plugins/mdbootstrap/js/mdb-landing.js') }}"></script>
 
 <script>
     //Animation init

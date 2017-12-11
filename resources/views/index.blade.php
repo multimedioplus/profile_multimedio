@@ -47,6 +47,113 @@
         <hr>
     </div>
 
+    <div class="container-fluid" style="background-color: #f4f4fa">
+        <div class="container py-4">
+
+            <!--Section: Services-->
+            <section id="layanan" class="section mt-3 mb-3 pb-3">
+
+                <!-- Section heading -->
+                <h3 class="text-center title my-5 dark-grey-text font-bold wow fadeIn" data-wow-delay="0.2s">
+                    <strong>Layanan Kami</strong>
+                </h3>
+
+                <!-- First row -->
+                <div class="row wow fadeIn" data-wow-delay="0.4s">
+
+                    <!-- First column -->
+                    <div class="col-md-6 mb-r text-center">
+
+                        <!--Panel-->
+                        <div class="card card-body text-left white hoverable">
+                            <p class="feature-title title font-bold dark-grey-text font-up spacing mt-4 mx-4">
+                                <i class="fa fa-square orange-text mr-2" aria-hidden="true"></i>
+                                <strong>Web design</strong>
+                            </p>
+                            <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente earu
+                                proident. Ad vegan excepteur butcher vice lomo leggings.
+                            <p class="font-small font-bold orange-text mx-4 mb-0">
+                                <a>read more</a>
+                            </p>
+                            </p>
+                        </div>
+                        <!--/.Panel-->
+
+                    </div>
+                    <!-- /First column -->
+
+                    <!-- Second column -->
+                    <div class="col-md-6 mb-r text-center">
+
+                        <!--Panel-->
+                        <div class="card card-body text-left white hoverable">
+                            <p class="feature-title title font-bold dark-grey-text font-up spacing mt-4 mx-4">
+                                <i class="fa fa-square orange-text mr-2" aria-hidden="true"></i>
+                                <strong>Development</strong>
+                            </p>
+                            <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente earu
+                                proident. Ad vegan excepteur butcher vice lomo leggings.
+                            <p class="font-small font-bold orange-text mx-4 mb-0">
+                                <a>read more</a>
+                            </p>
+                            </p>
+                        </div>
+                        <!--/.Panel-->
+
+                    </div>
+                    <!-- /.Second column -->
+
+                    <!-- Third column -->
+                    <div class="col-md-6 mb-r text-center">
+
+                        <!--Panel-->
+                        <div class="card card-body text-left white hoverable">
+                            <p class="feature-title title font-bold dark-grey-text font-up spacing mt-4 mx-4">
+                                <i class="fa fa-square orange-text mr-2" aria-hidden="true"></i>
+                                <strong>Branding</strong>
+                            </p>
+                            <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente earu
+                                proident. Ad vegan excepteur butcher vice lomo leggings.
+                            <p class="font-small font-bold orange-text mx-4 mb-0">
+                                <a>read more</a>
+                            </p>
+                            </p>
+                        </div>
+                        <!--/.Panel-->
+
+                    </div>
+                    <!-- /.Third column -->
+
+                    <!-- Fourth column -->
+                    <div class="col-md-6 mb-r text-center">
+
+                        <!--Panel-->
+                        <div class="card card-body text-left white hoverable">
+                            <p class="feature-title title font-bold dark-grey-text font-up spacing mt-4 mx-4">
+                                <i class="fa fa-square orange-text mr-2" aria-hidden="true"></i>
+                                <strong>Marketing</strong>
+                            </p>
+                            <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente earu
+                                proident. Ad vegan excepteur butcher vice lomo leggings.
+                            <p class="font-small font-bold orange-text mx-4 mb-0">
+                                <a>read more</a>
+                            </p>
+                            </p>
+                        </div>
+                        <!--/.Panel-->
+
+                    </div>
+                    <!-- /.Fourth column -->
+
+                </div>
+                <!-- /.First row -->
+
+            </section>
+            <!--/Section: Services-->
+
+        </div>
+    </div>
+    <!--Second container-->
 
         <!--Section: Features v.4-->
     <div class="streak streak-md streak-photo" style="background-image:url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg')">
@@ -57,7 +164,7 @@
                 <section class="section feature-box wow fadeIn" data-wow-delay="0.2s">
 
                     <!--Section heading-->
-                    <h1 class="py-5 my-5 white-text text-center wow fadeIn" data-wow-delay="0.2s"><strong class="font-bold">Lorem ipsum</strong> dolor sit amet</h1>
+                    <h1 class="white-text text-center wow fadeIn" data-wow-delay="0.2s"><strong class="font-bold">Lorem ipsum</strong> dolor sit amet</h1>
 
                     <!--Grid row-->
                     <div class="row features-small mb-5">
@@ -164,129 +271,310 @@
     <!--/Section: Features v.4-->
 
     <div class="container">
-        <section id="pricing" class="section pb-5">
 
-            <!--Secion heading-->
-            <h2 class="section-heading my-5 py-5 dark-grey-text font-bold wow fadeIn" data-wow-delay="0.2s">Our top offers</h2>
+        <section id="testimoni" class="section mb-5">
 
-            <!--Grid row-->
+            <!--Section heading-->
+            <h2 class="section-heading my-5 pt-5 pb-4 font-bold wow fadeIn" data-wow-delay="0.2s">Testimoni :</h2>
+
             <div class="row">
 
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-12 mb-r">
-                    <!--Card-->
-                    <div class="pricing-card naked-card wow fadeInLeft">
+                <!--Carousel Wrapper-->
+                <div id="multi-item-example" class="carousel testimonial-carousel slide carousel-multi-item wow fadeIn" data-ride="carousel">
 
-                        <!--Content-->
-                        <div class="card-body dark-grey-text">
-                            <h5>Spa & Beauty</h5>
-                            <!--Price-->
-                            <div class="price blue-text">
-                                <h1>199</h1>
-                            </div>
-                            <!--/.Price-->
-                            <ul class="striped dark-grey-text">
-                                <li>
-                                    <p><strong>3</strong> attraction</p>
-                                </li>
-                                <li>
-                                    <p><strong>10</strong> lorem ipsum</p>
-                                </li>
-                                <li>
-                                    <p><strong>15</strong> lorem ipsum</p>
-                                </li>
-                                <li>
-                                    <p><strong>200</strong> lorem ipsum</p>
-                                </li>
-                            </ul>
-                            <a class="btn btn-red btn-rounded">Buy now</a>
-                        </div>
+                    <!--Controls-->
+                    <div class="controls-top">
+                        <a class="btn-floating light-blue darken-4" href="#multi-item-example" data-slide="prev">
+                            <i class="fa fa-chevron-left"></i>
+                        </a>
+                        <a class="btn-floating light-blue darken-4" href="#multi-item-example" data-slide="next">
+                            <i class="fa fa-chevron-right"></i>
+                        </a>
                     </div>
-                    <!--Card-->
-                </div>
-                <!--Grid column-->
+                    <!--Controls-->
 
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-12 mb-r wow fadeInUp">
+                    <!--Indicators-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#multi-item-example" data-slide-to="0" class="active light-blue darken-4"></li>
+                        <li data-target="#multi-item-example" data-slide-to="1" class="light-blue darken-4"></li>
+                        <li data-target="#multi-item-example" data-slide-to="2" class="light-blue darken-4"></li>
+                    </ol>
+                    <!--Indicators-->
 
-                    <!-- Card -->
-                    <div class="card card-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg');">
+                    <!--Slides-->
+                    <div class="carousel-inner text-center" role="listbox">
 
-                        <!-- Content -->
-                        <div class="text-white text-center pricing-card d-flex align-items-center rgba-stylish-strong py-3 px-3">
+                        <!--First slide-->
+                        <div class="carousel-item active">
+                            <!--Grid column-->
+                            <div class="col-md-4">
 
-                            <!--Content-->
-                            <div class="card-body">
-                                <h5>Relax Day</h5>
-                                <!--Price-->
-                                <div class="price pt-0">
-                                    <h1 class="px-0 mx-0">299</h1>
+                                <div class="testimonial">
+                                    <!--Avatar-->
+                                    <div class="avatar">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(26).jpg" class="rounded-circle img-fluid">
+                                    </div>
+                                    <!--Content-->
+                                    <h4>Anna Deynah</h4>
+
+                                    <p>
+                                        <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis
+                                        hic tenetur.</p>
+
+                                    <!--Review-->
+                                    <div class="grey-text">
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star-half-full"> </i>
+                                    </div>
                                 </div>
-                                <!--/.Price-->
-                                <ul class="striped">
-                                    <li>
-                                        <p><strong>5</strong> attractions</p>
-                                    </li>
-                                    <li>
-                                        <p><strong>20</strong> lorem ipsum</p>
-                                    </li>
-                                    <li>
-                                        <p><strong>50</strong> lorem ipsum</p>
-                                    </li>
-                                    <li>
-                                        <p><strong>300</strong> lorem ipsum</p>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-outline-white btn-rounded">Buy now</a>
+
                             </div>
-                        </div>
-                    </div>
-                    <!--Card-->
-                </div>
-                <!--Grid column-->
+                            <!--Grid column-->
 
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-12 mb-r wow fadeInRight">
-                    <!--Card-->
-                    <div class="pricing-card naked-card">
+                            <!--Grid column-->
+                            <div class="col-md-4 clearfix d-none d-sm-block">
+                                <div class="testimonial">
+                                    <!--Avatar-->
+                                    <div class="avatar">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(27).jpg" class="rounded-circle img-fluid">
+                                    </div>
+                                    <!--Content-->
+                                    <h4>John Doe</h4>
 
-                        <!--Content-->
-                        <div class="card-body dark-grey-text">
-                            <h5>Massage</h5>
-                            <!--Price-->
-                            <div class="price blue-text">
-                                <h1>99</h1>
+                                    <p>
+                                        <i class="fa fa-quote-left"></i> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                                        laboriosam.
+                                    </p>
+
+                                    <!--Review-->
+                                    <div class="grey-text">
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                    </div>
+                                </div>
                             </div>
-                            <!--/.Price-->
-                            <ul class="striped dark-grey-text">
-                                <li>
-                                    <p><strong>2</strong> attrations</p>
-                                </li>
-                                <li>
-                                    <p><strong>20</strong> lorem ipsum</p>
-                                </li>
-                                <li>
-                                    <p><strong>35</strong> lorem ipsum</p>
-                                </li>
-                                <li>
-                                    <p><strong>100</strong> lorem ipsum</p>
-                                </li>
-                            </ul>
-                            <a class="btn btn-red btn-rounded"> Buy now</a>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-4 clearfix d-none d-sm-block">
+                                <div class="testimonial">
+                                    <!--Avatar-->
+                                    <div class="avatar">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class="rounded-circle img-fluid">
+                                    </div>
+                                    <!--Content-->
+                                    <h4>Abbey Clark</h4>
+
+                                    <p>
+                                        <i class="fa fa-quote-left"></i> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+                                        nihil molestiae.</p>
+
+                                    <!--Review-->
+                                    <div class="grey-text mb-3s">
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star-o"> </i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
                         </div>
+                        <!--First slide-->
+
+                        <!--Second slide-->
+                        <div class="carousel-item">
+                            <!--Grid column-->
+                            <div class="col-md-4">
+
+                                <div class="testimonial">
+                                    <!--Avatar-->
+                                    <div class="avatar">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg" class="rounded-circle img-fluid">
+                                    </div>
+                                    <!--Content-->
+                                    <h4>Blake Dabney</h4>
+
+                                    <p>
+                                        <i class="fa fa-quote-left"></i> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis laboriosam.</p>
+
+                                    <!--Review-->
+                                    <div class="grey-text">
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star-half-full"> </i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-4 clearfix d-none d-sm-block">
+                                <div class="testimonial">
+                                    <!--Avatar-->
+                                    <div class="avatar">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(6).jpg" class="rounded-circle img-fluid">
+                                    </div>
+                                    <!--Content-->
+                                    <h4>Andrea Clay</h4>
+
+                                    <p>
+                                        <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis
+                                        hic tenetur quae.</p>
+
+                                    <!--Review-->
+                                    <div class="grey-text">
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-4 clearfix d-none d-sm-block">
+                                <div class="testimonial">
+                                    <!--Avatar-->
+                                    <div class="avatar">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(7).jpg" class="rounded-circle img-fluid">
+                                    </div>
+                                    <!--Content-->
+                                    <h4>Cami Gosse</h4>
+
+                                    <p>
+                                        <i class="fa fa-quote-left"></i> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                        praesentium.
+                                    </p>
+
+                                    <!--Review-->
+                                    <div class="grey-text">
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star-o"> </i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Second slide-->
+
+                        <!--Third slide-->
+                        <div class="carousel-item">
+                            <!--Grid column-->
+                            <div class="col-md-4">
+
+                                <div class="testimonial">
+                                    <!--Avatar-->
+                                    <div class="avatar">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle img-fluid">
+                                    </div>
+                                    <!--Content-->
+                                    <h4>Bobby Haley</h4>
+
+                                    <p>
+                                        <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis
+                                        hic tenetur quae.</p>
+
+                                    <!--Review-->
+                                    <div class="grey-text">
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-4 clearfix d-none d-sm-block">
+                                <div class="testimonial">
+                                    <!--Avatar-->
+                                    <div class="avatar">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle img-fluid">
+                                    </div>
+                                    <!--Content-->
+                                    <h4>Elisa Janson</h4>
+
+                                    <p>
+                                        <i class="fa fa-quote-left"></i> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                        praesentium.
+                                    </p>
+
+                                    <!--Review-->
+                                    <div class="grey-text">
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star-half-full"> </i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-4 clearfix d-none d-sm-block">
+                                <div class="testimonial">
+                                    <!--Avatar-->
+                                    <div class="avatar">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid">
+                                    </div>
+                                    <!--Content-->
+                                    <h4>Robert Jacobs</h4>
+
+                                    <p>
+                                        <i class="fa fa-quote-left"></i> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis laboriosam.</p>
+
+                                    <!--Review-->
+                                    <div class="grey-text">
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star"> </i>
+                                        <i class="fa fa-star-o"> </i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Third slide-->
 
                     </div>
-                    <!--Card-->
+                    <!--Slides-->
+
                 </div>
-                <!--Grid column-->
+                <!--Carousel Wrapper-->
 
             </div>
-            <!--Grid row-->
 
         </section>
-        <!--/Section: Pricing v.5-->
 
-        <section id="contact" class="section mb-5">
+    </div>
+
+    <div class="container">
+        <section id="kontak" class="section mb-5">
 
             <!-- Section heading -->
             <h3 class="text-center title my-5 py-4 dark-grey-text font-bold wow fadeIn" data-wow-delay="0.2s">
@@ -297,7 +585,6 @@
             <p class="section-description mb-5 wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate
                 esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
 
-            <div class="col-md-7">
             <div class="row wow fadeIn" data-wow-delay="0.4s">
 
                 <!-- Grid column -->
@@ -381,7 +668,6 @@
                 <!-- Grid column -->
             </div>
 
-            </div>
         </section>
         <!-- Section: Contact v.2 -->
     </div>
