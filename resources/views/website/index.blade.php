@@ -3,8 +3,15 @@
 @section('title', 'Beranda')
 
 @section('body_class', 'designer')
-@section('header_class', '')
+
 @section('footer_class', 'page-footer center-on-small-only blue-grey lighten-5 pt-0')
+
+@section('header')
+    <header class="">
+        @include('includes.header_nav_home')
+        @include('includes.header_content')
+    </header>
+@endsection
 
 @section('content')
     <div class="container mt-3">

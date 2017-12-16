@@ -1,4 +1,4 @@
-<div style="background-color: #57036b;">
+<div style="background-color: #741d77;">
     <div class="container">
         <!--Grid row-->
         <div class="row py-4 d-flex align-items-center">

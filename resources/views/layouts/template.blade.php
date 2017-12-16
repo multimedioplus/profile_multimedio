@@ -8,9 +8,7 @@
     </head>
 
     <body class="@yield('body_class')">
-        <header class="@yield('header_class')">
-            @include('includes.header_content')
-        </header>
+        @yield('header')
 
         @yield('content')
 

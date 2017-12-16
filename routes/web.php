@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('website.index');
+});
+
+Route::get('/dokumentasi', function () {
+    return view('website.dokumentasi');
 });
 
 Auth::routes();

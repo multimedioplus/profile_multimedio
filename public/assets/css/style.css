@@ -16,6 +16,11 @@ section h3 {
 #layanan .icon-area p {
     color: #f4f4f4;
 }
+
+a {
+    color: #9e00c5;
+}
+
 .designer .icon-area .circle-icon i{
     background-color:rgba(236,42,69,.6) ;
 }
@@ -30,7 +35,6 @@ section h3 {
 }
 .navbar.scrolling-navbar.top-nav-collapse .nav-item .nav-link {
     color: #9e00c5 !important;
-
 }
 .icon-area strong::after {
     background: #959cb9 none repeat scroll 0 0;
