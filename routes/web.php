@@ -14,9 +14,11 @@
 Route::get('/', function () {
     return view('website.index');
 });
-
 Route::get('/dokumentasi', function () {
     return view('website.dokumentasi');
+});
+Route::get('/portofolio', function () {
+    return view('website.portofolio');
 });
 
 Auth::routes();

@@ -33,17 +33,17 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#program-studi">
+                    <a class="nav-link" href="{{ url('/program-studi') }}">
                         <i class="fa fa-paper-plane"></i> Program Studi</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portofolio">
+                    <a class="nav-link" href="{{ url('/portofolio') }}">
                         <i class="fa fa-edit"></i> Portofolio</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#testimoni">
+                    <a class="nav-link" href="{{ url('/testimoni') }}">
                         <i class="fa fa-edit"></i> Testimoni</span>
                     </a>
                 </li>
