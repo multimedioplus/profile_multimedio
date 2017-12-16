@@ -5,20 +5,25 @@
 <!-- Bootstrap core JavaScript -->
 <script src="{{ url('assets/plugins/mdbootstrap/js/bootstrap.min.js') }}"></script>
 <!-- MDB core JavaScript -->
-<script src="{{ url('assets/plugins/mdbootstrap/js/mdb.min.js') }}"></script>
+{{--<script src="{{ url('assets/plugins/mdbootstrap/js/mdb.min.js') }}"></script>--}}
 <script src="{{ url('assets/plugins/mdbootstrap/js/mdb-landing.js') }}"></script>
-
 <script>
     //Animation init
     new WOW().init();
 
-    //Modal
-    $('#myModal').on('shown.bs.modal', function () {
-        $('#myInput').focus()
-    })
+    // initialize scrollspy
+    $('body').scrollspy({
+        target: '.dotted-scrollspy'
+    });
 
-    // Material Select Initialization
-    $(document).ready(function () {
-        $('.mdb-select').material_select();
+    // initialize lightbox
+    $(function() {
+        $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+    });
+
+    $('.navbar-collapse a').click(function() {
+        $(".navbar-collapse").collapse('hide');
     });
 </script>
+
+

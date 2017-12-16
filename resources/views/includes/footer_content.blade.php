@@ -1,11 +1,11 @@
-<div style="background-color: #5991fb;">
+<div style="background-color: #57036b;">
     <div class="container">
         <!--Grid row-->
         <div class="row py-4 d-flex align-items-center">
 
             <!--Grid column-->
             <div class="col-12 col-md-5 text-left mb-md-0">
-                <h6 class="mb-0 white-text text-center text-md-left"><strong>Get connected with us on social networks!</strong></h6>
+                <h6 class="mb-0 white-text text-center text-md-left"><strong>Ikuti kami di sosial media</strong></h6>
             </div>
             <!--Grid column-->
 
@@ -35,7 +35,7 @@
 
         <!--First column-->
         <div class="col-md-3 col-lg-4 col-xl-3 mb-r dark-grey-text">
-            <h6 class="title font-bold"><strong>Arco</strong></h6>
+            <h6 class="title font-bold"><strong>MultimedioPlus</strong></h6>
             <hr class="blue mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit.</p>
@@ -46,10 +46,10 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-r dark-grey-text">
             <h6 class="title font-bold"><strong>Products</strong></h6>
             <hr class="blue mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p><a href="#!" class="dark-grey-text">Arco Test</a></p>
-            <p><a href="#!" class="dark-grey-text">Arco Test</a></p>
-            <p><a href="#!" class="dark-grey-text">Arco Test</a></p>
-            <p><a href="#!" class="dark-grey-text">Arco Test</a></p>
+            <p><a href="#!" class="dark-grey-text">MultimedioPlst</a></p>
+            <p><a href="#!" class="dark-grey-text">MultioPlus</a></p>
+            <p><a href="#!" class="dark-grey-text">Multimelus</a></p>
+            <p><a href="#!" class="dark-grey-text">Multimet</a></p>
         </div>
         <!--/.Second column-->
 
@@ -80,9 +80,9 @@
 <!--/.Footer Links-->
 
 <!-- Copyright-->
-<div class="footer-copyright">
+<div class="footer-copyright" style="background: #292828">
     <div class="container-fluid">
-        © 2017 Copyright: <a href="https://www.MDBootstrap.com"><strong> MDBootstrap.com</strong></a>
+        © 2017 Copyright: <a href="https://www.multimedioplus.com"><strong> multimedioplus.com</strong></a>
     </div>
 </div>
 <!--/.Copyright -->

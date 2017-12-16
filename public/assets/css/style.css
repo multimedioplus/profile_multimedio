@@ -1,3 +1,37 @@
+section#about {
+    padding-top: 50px;
+}
 section h3 {
-    margin :0;
+    margin : 0;
+}
+#layanan h2 {
+    color: white;
+}
+#layanan hr {
+    border-top: 2px solid #b0a814;
+}
+#layanan .icon-area strong {
+    color: #cccccc;
+}
+#layanan .icon-area p {
+    color: #f4f4f4;
+}
+.designer .icon-area .circle-icon i{
+    background-color:rgba(236,42,69,.6) ;
+}
+
+.designer .navbar {
+    background-color: #ffffff;
+    color: #9e00c5;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .9rem;
+    padding-left: .9rem;
+}
+.navbar.scrolling-navbar.top-nav-collapse .nav-item .nav-link {
+    color: #9e00c5 !important;
+
+}
+.icon-area strong::after {
+    background: #959cb9 none repeat scroll 0 0;
 }

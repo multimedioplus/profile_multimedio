@@ -1,84 +1,69 @@
-<!--Navbar-->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar deep-purple lighten-2">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
     <div class="container">
-        <a class="navbar-brand" href="#"><strong>Arco</strong></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">
+            <img src="{{ url('assets/img/landing/logo1.png') }}" width="150px">
+            {{--MultimedioPlus--}}
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!--Links-->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto smooth-scroll">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about" data-offset="100">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#layanan" data-offset="100">Layanan</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#dokumentasi" data-offset="100">Dokumentasi</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#testimoni" data-offset="100">Testimoni</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portofolio" data-offset="100">Portofolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="modal" data-target="#modal-contact">Kontak</a>
-                </li>
             </ul>
-
-            <!--Social Icons-->
+            <!-- Social Icon  -->
             <ul class="navbar-nav nav-flex-icons">
-                {{--<li class="nav-item">--}}
-                    {{--<a class="nav-link"><i class="fa fa-facebook"></i></a>--}}
-                {{--</li>--}}
-                {{--<li class="nav-item">--}}
-                    {{--<a class="nav-link"><i class="fa fa-twitter"></i></a>--}}
-                {{--</li>--}}
-                {{--<li class="nav-item">--}}
-                    {{--<a class="nav-link"><i class="fa fa-instagram"></i></a>--}}
-                {{--</li>--}}
                 <li class="nav-item">
-                    <a class="nav-link"><i class="fa fa-registered" href="{{ url('/register') }}"></i> Register</a>
+                    <a class="nav-link" href="#home">
+                        <i class="fa fa-home"></i> Home <span class="sr-only">(current)</span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/login') }}"><i class="fa fa-sign-in"></i> Login</a>
+                    <a class="nav-link" href="#about">
+                        <i class="fa fa-info"></i> Tentang</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#layanan">
+                        <i class="fa fa-handshake-o"></i> Layanan</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#dokumentasi">
+                        <i class="fa fa-photo"></i> Dokumentasi</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#program-studi">
+                        <i class="fa fa-paper-plane"></i> Program Studi</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portofolio">
+                        <i class="fa fa-edit"></i> Portofolio</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimoni">
+                        <i class="fa fa-edit"></i> Testimoni</span>
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-
-<!--Intro Section-->
-<section class="view intro-2 hm-gradient home">
+<!-- Intro Section -->
+<div id="home" class="view hm-gradient jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('{{ url('assets/img/landing/banner.jpg') }}');">
     <div class="full-bg-img">
         <div class="container flex-center">
-            <div class="row flex-center pt-5 mt-3">
-                <div class="col-md-12 col-lg-6 text-center text-md-left margins">
-                    <div class="white-text">
-                        <h1 class="h1-responsive font-bold wow fadeInLeft" data-wow-delay="0.3s"> Welcome to ARCA</h1>
-                        <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
-                        <h6 class="wow fadeInLeft" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt
-                            dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi ea dolor molestiae
-                            iste.
-                        </h6>
-                        <br>
-                        {{--<a class="btn btn-white btn-rounded blue-text font-bold ml-lg-0 wow fadeInLeft" data-wow-delay="0.3s">Download</a>--}}
-                        <a href="#about" class="btn btn-outline-white btn-rounded font-bold wow fadeInLeft" data-wow-delay="0.3s">Explore Now
-                        </a>
+            <div class="row smooth-scroll">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <h2 class="display-3 font-bold white-text mb-3 wow fadeInDown">MultimedioPlus</h2>
+                        <h5 class="font-up font-bold white-text pb-5 wow fadeInUpBig">Video Editing | Graphic Designer | Software Development</h5>
+                        <h2 class=" mt-4 white-text wow fadeInUp">Welcome to our Website!</h2>
                     </div>
-                </div>
-
-                {{--<div class="col-md-12 col-lg-6  wow fadeInRight d-flex justify-content-center" data-wow-delay="0.3s">--}}
-                <div class="col-md-12 col-lg-6  wow fadeInRight justify-content-center" data-wow-delay="0.3s">
-                    <img src="{{ url('assets/img/landing/admin-new.png') }}" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>
