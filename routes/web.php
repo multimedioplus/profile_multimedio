@@ -20,6 +20,12 @@ Route::get('/dokumentasi', function () {
 Route::get('/portofolio', function () {
     return view('website.portofolio');
 });
+Route::get('/testimoni', function () {
+    return view('website.testimoni');
+});
+Route::get('/program-studi', function () {
+    return view('website.program_studi');
+});
 
 Auth::routes();
 
